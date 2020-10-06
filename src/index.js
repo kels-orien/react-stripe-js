@@ -15,7 +15,7 @@ import SplitForm from "./components/demos/SplitForm";
 
 import "./styles.css";
 
-const stripePromise = loadStripe(process.enc.STRIPE_PK_TEST);
+const stripePromise = loadStripe(process.env.STRIPE_PK_TEST);
 
 const demos = [
   {
